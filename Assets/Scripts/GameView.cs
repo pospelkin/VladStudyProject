@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class GameView : MonoBehaviour
 {
@@ -48,8 +49,11 @@ public class GameView : MonoBehaviour
                     GameObject newBlock = Instantiate(blockPrefab);
                     newBlock.transform.SetParent(canvas.transform, false);
                     RectTransform blockRectTransform = newBlock.GetComponent<RectTransform>();
-                    SpriteRenderer spriteRenderer = newBlock.GetComponent<SpriteRenderer>();
-                    Vector3 scale = spriteRenderer.transform.localScale;
+                    Image spriteRenderer = newBlock.GetComponent<Image>();
+
+                    Debug.Log(spriteRenderer.rectTransform.rect.size);
+
+                    Vector3 scale = spriteRenderer.rectTransform.rect.size;
                     scaleX = scale.x + 7;
                     scaleY = scale.y + 7;
 

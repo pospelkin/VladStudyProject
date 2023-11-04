@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{EFF756CB-2607-1C9B-05B0-0EDED417F305}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameView.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameView.cs" Line="13" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VladStudyProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GameView.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="21fb8ad4-674a-47de-b84a-9b030fe76e9d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
